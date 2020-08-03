@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="dima.css">
+    <link rel="shortcut icon" href="../photo/logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <title>Особистий кабінет - Діма</title>
+</head>
+<body>
+
+
+<div class="intro" id="videoFon">
+
+</div>
+
+<div class="month">
+    <div onclick="Serpen2020()" class="month-item">Серпень_2020</div>
+    <div onclick="Lupen2020()" class="month-item active">Липень_2020</div>
+    <div onclick="Cherven2020()" class="month-item">Червень_2020</div>
+    <div onclick="Traven2020()" class="month-item">Травень_2020</div>
+
+</div>
+
+<div class="background" id="backGround">
+    <div class="left">
+        <div class="top">
+            <table id="calendar2">
+                <thead>
+                <tr class="tr-calendar">
+                    <td>‹
+                    <td colspan="5">
+                    <td>›
+                <tr class="tr-calendar">
+                    <td>Пн
+                    <td>Вт
+                    <td>Ср
+                    <td>Чт
+                    <td>Пт
+                    <td>Сб
+                    <td>Нд
+                <tbody>
+            </table>
+        </div>
+        <div class="bottom">
+
+            <table class="table-hours">
+                <tr class="row-flex">
+                    <td class="square">
+                        <div class="data">1</div>
+                        <input readonly value="8" id="hours1" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">2</div>
+                        <input readonly value="8" id="hours2" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">3</div>
+                        <input readonly value="8" id="hours3" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">4</div>
+                        <input readonly value="8" id="hours4" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">5</div>
+                        <input readonly value="1" id="hours5" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">6</div>
+                        <input readonly value="8" id="hours6" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">7</div>
+                        <input readonly value="8" id="hours7" class="hours"/>
+                    </td>
+                </tr>
+                <tr class="row-flex">
+                    <td class="square">
+                        <div class="data">8</div>
+                        <input readonly value="8" id="hours8" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">9</div>
+                        <input readonly value="8" id="hours9" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">10</div>
+                        <input readonly value="3" id="hours10" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">11</div>
+                        <input readonly value="8" id="hours11" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">12</div>
+                        <input readonly value="4" id="hours12" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">13</div>
+                        <input readonly value="1" id="hours13" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">14</div>
+                        <input readonly value="8" id="hours14" class="hours"/>
+                    </td>
+                </tr>
+                <tr class="row-flex">
+                    <td class="square">
+                        <div class="data">15</div>
+                        <input readonly value="1" id="hours15" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">16</div>
+                        <input readonly value="0" id="hours16" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">17</div>
+                        <input readonly value="8" id="hours17" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">18</div>
+                        <input readonly value="8" id="hours18" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">19</div>
+                        <input readonly value="1" id="hours19" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">20</div>
+                        <input readonly value="8" id="hours20" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">21</div>
+                        <input readonly value="8" id="hours21" class="hours"/>
+                    </td>
+                </tr>
+                <tr class="row-flex">
+                    <td class="square">
+                        <div class="data">22</div>
+                        <input readonly value="8" id="hours22" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">23</div>
+                        <input readonly value="2" id="hours23" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">24</div>
+                        <input readonly value="8" id="hours24" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">25</div>
+                        <input readonly value="8" id="hours25" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">26</div>
+                        <input readonly value="8" id="hours26" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">27</div>
+                        <input readonly value="8" id="hours27" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">28</div>
+                        <input readonly value="4" id="hours28" class="hours"/>
+                    </td>
+                </tr>
+                <tr class="row-flex">
+                    <td class="square">
+                        <div class="data">29</div>
+                        <input readonly value="0" id="hours29" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">30</div>
+                        <input readonly value="8" id="hours30" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data">31</div>
+                        <input readonly value="8" id="hours31" class="hours"/>
+                    </td>
+                    <td class="square">
+                        <div class="data"></div>
+                        <div class="hours"></div>
+                    </td>
+                    <td class="square">
+                        <div class="data"></div>
+                        <div class="hours"></div>
+                    </td>
+                    <td class="square">
+                        <div class="data"></div>
+                        <div class="hours"></div>
+                    </td>
+                    <td class="square">
+                        <div class="data"></div>
+                        <div class="hours"></div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    <div class="right">
+        Робочих годин = <span id="totalHours"></span><br>
+        Зароблено = <span id="totalMoney"></span>
+    </div>
+
+
+</div>
+
+
+<div class="login" id="login">
+    <form action="">
+        <span id="close">&times;</span>
+        <h1>Введіть пароль</h1>
+        <input class="input-text" type="password" id="password" placeholder="Ваш пароль">
+        <input class="input-button" type="button" onclick="pass()" value="Вхід">
+    </form>
+</div>
+
+<script src="../js.app/change-month.js"></script>
+<script src="../js.app/calendar.js"></script>
+<script src="../js.app/total-hours.js"></script>
+<script src="../js.app/auto-login.js"></script>
+<!--<script src="../js.app/data-change.js"></script>-->
+
+</body>
+</html>
