@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dima.css">
+    <link rel="shortcut icon" href="../photo/logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <title>Особистий кабінет - Діма</title>
+</head>
+<body>
+
+
+<div class="intro" id="videoFon">
+
+</div>
+
+<div title="На головну" onclick="BackToMain()" class="back-to-main">&#10094;</div>
+
+<div class="month">
+    <a href="../people/serpen2020.html" class="month-item active">Серпень_2020</a>
+    <a href="../people/lupen2020.html" class="month-item">Липень_2020</a>
+    <a href="../people/cherven2020.html" class="month-item">Червень_2020</a>
+    <a href="../people/traven2020.html" class="month-item">Травень_2020</a>
+
+</div>
+
+<div class="phone-back"></div>
+
+<div class="background" id="backGround">
+
+    <div class="left">
+        <div class="top">
+            <table id="calendar2">
+                <thead>
+                <tr class="tr-calendar">
+                    <td>‹
+                    <td colspan="5">
+                    <td>›
+                <tr class="tr-calendar">
+                    <td>Пн
+                    <td>Вт
+                    <td>Ср
+                    <td>Чт
+                    <td>Пт
+                    <td>Сб
+                    <td>Нд
+                <tbody>
+            </table>
+        </div>
+        <div class="bottom">
+
+            <table class="table-hours">
+                <tr class="row-flex">
+                    <td onclick="DataChange('square1')" id="square1" ondblclick="SetColor('square1')" class="square">
+                        <div class="data">1</div>
+                        <input readonly value="8" id="hours1" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square2')" id="square2" ondblclick="SetColor('square2')" class="square">
+                        <div class="data">2</div>
+                        <input readonly value="8" id="hours2" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square3')" id="square3" ondblclick="SetColor('square3')" class="square">
+                        <div class="data">3</div>
+                        <input readonly value="8" id="hours3" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square4')" id="square4" ondblclick="SetColor('square4')" class="square">
+                        <div class="data">4</div>
+                        <input readonly value="8" id="hours4" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square5')" id="square5" ondblclick="SetColor('square5')" class="square">
+                        <div class="data">5</div>
+                        <input readonly value="1" id="hours5" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square6')" id="square6" ondblclick="SetColor('square6')" class="square">
+                        <div class="data">6</div>
+                        <input readonly value="8" id="hours6" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square7')" id="square7" ondblclick="SetColor('square7')" class="square">
+                        <div class="data">7</div>
+                        <input readonly value="8" id="hours7" class="hours"/>
+                    </td>
+                </tr>
+                <tr class="row-flex">
+                    <td onclick="DataChange('square8')" id="square8" ondblclick="SetColor('square8')" class="square">
+                        <div class="data">8</div>
+                        <input readonly value="8" id="hours8" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square9')" id="square9" ondblclick="SetColor('square9')" class="square">
+                        <div class="data">9</div>
+                        <input readonly value="8" id="hours9" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square10')" id="square10" ondblclick="SetColor('square10')" class="square">
+                        <div class="data">10</div>
+                        <input readonly value="8" id="hours10" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square11')" id="square11" ondblclick="SetColor('square11')" class="square">
+                        <div class="data">11</div>
+                        <input readonly value="8" id="hours11" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square12')" id="square12" ondblclick="SetColor('square12')" class="square">
+                        <div class="data">12</div>
+                        <input readonly value="8" id="hours12" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square13')" id="square13" ondblclick="SetColor('square13')" class="square">
+                        <div class="data">13</div>
+                        <input readonly value="1" id="hours13" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square14')" id="square14" ondblclick="SetColor('square14')" class="square">
+                        <div class="data">14</div>
+                        <input readonly value="8" id="hours14" class="hours"/>
+                    </td>
+                </tr>
+                <tr class="row-flex">
+                    <td onclick="DataChange('square15')" id="square15" ondblclick="SetColor('square15')" class="square">
+                        <div class="data">15</div>
+                        <input readonly value="1" id="hours15" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square16')" id="square16" ondblclick="SetColor('square16')" class="square">
+                        <div class="data">16</div>
+                        <input readonly value="0" id="hours16" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square17')" id="square17" ondblclick="SetColor('square17')" class="square">
+                        <div class="data">17</div>
+                        <input readonly value="8" id="hours17" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square18')" id="square18" ondblclick="SetColor('square18')" class="square">
+                        <div class="data">18</div>
+                        <input readonly value="8" id="hours18" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square19')" id="square19" ondblclick="SetColor('square19')" class="square">
+                        <div class="data">19</div>
+                        <input readonly value="1" id="hours19" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square20')" id="square20" ondblclick="SetColor('square20')" class="square">
+                        <div class="data">20</div>
+                        <input readonly value="8" id="hours20" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square21')" id="square21" ondblclick="SetColor('square21')" class="square">
+                        <div class="data">21</div>
+                        <input readonly value="8" id="hours21" class="hours"/>
+                    </td>
+                </tr>
+                <tr class="row-flex">
+                    <td onclick="DataChange('square22')" id="square22" ondblclick="SetColor('square22')" class="square">
+                        <div class="data">22</div>
+                        <input readonly value="8" id="hours22" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square23')" id="square23" ondblclick="SetColor('square23')" class="square">
+                        <div class="data">23</div>
+                        <input readonly value="2" id="hours23" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square24')" id="square24" ondblclick="SetColor('square24')" class="square">
+                        <div class="data">24</div>
+                        <input readonly value="8" id="hours24" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square25')" id="square25" ondblclick="SetColor('square25')" class="square">
+                        <div class="data">25</div>
+                        <input readonly value="8" id="hours25" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square26')" id="square26" ondblclick="SetColor('square26')" class="square">
+                        <div class="data">26</div>
+                        <input readonly value="8" id="hours26" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square27')" id="square27" ondblclick="SetColor('square27')" class="square">
+                        <div class="data">27</div>
+                        <input readonly value="8" id="hours27" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square28')" id="square28" ondblclick="SetColor('square28')" class="square">
+                        <div class="data">28</div>
+                        <input readonly value="4" id="hours28" class="hours"/>
+                    </td>
+                </tr>
+                <tr class="row-flex">
+                    <td onclick="DataChange('square29')" id="square29" ondblclick="SetColor('square29')" class="square">
+                        <div class="data">29</div>
+                        <input readonly value="0" id="hours29" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square30')" id="square30" ondblclick="SetColor('square30')" class="square">
+                        <div class="data">30</div>
+                        <input readonly value="8" id="hours30" class="hours"/>
+                    </td>
+                    <td onclick="DataChange('square31')" id="square31" ondblclick="SetColor('square31')" class="square">
+                        <div class="data">31</div>
+                        <input readonly value="8" id="hours31" class="hours"/>
+                    </td>
+                    <td class="square invisible">
+                        <div class="data"></div>
+                        <div class="hours"></div>
+                    </td>
+                    <td class="square invisible">
+                        <div class="data"></div>
+                        <div class="hours"></div>
+                    </td>
+                    <td class="square invisible">
+                        <div class="data"></div>
+                        <div class="hours"></div>
+                    </td>
+                    <td class="square invisible">
+                        <div class="data"></div>
+                        <div class="hours"></div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    <div class="right">
+        Робочих годин = <span id="totalHours"></span><br>
+        Зароблено = <span id="totalMoney"></span>
+    </div>
+
+
+</div>
+
+
+<div class="login" id="login">
+    <div class="form" action="">
+        <span id="close">&times;</span>
+        <h1>Введіть пароль</h1>
+        <input autofocus class="input-text" onkeydown="readInput(event)" type="password" id="password"
+               placeholder="Ваш пароль">
+        <input class="input-button" type="button" onclick="pass()" value="Вхід">
+    </div>
+</div>
+
+
+<script src="../people/dima.js"></script>
+<!--<script src="../js.app/change-month.js"></script>-->
+<script src="../js.app/calendar.js"></script>
+<script src="../js.app/total-hours.js"></script>
+<script src="../js.app/data-change.js"></script>
+<!--<script src="../js.app/auto-login.js"></script>-->
+</body>
+</html>
