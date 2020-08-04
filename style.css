@@ -1,0 +1,287 @@
+body{
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+  color: #fff;
+}
+
+.login{
+  top: 0;
+  left: 0;
+  display: none;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,.6);
+  background-size: cover;
+}
+
+h1{
+  margin: 40px 0;
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  color: #333;
+}
+
+.form{
+  margin: 9% auto 0;
+  width: 368px;
+  height: 325px;
+  background-color: #9c9c9c;
+  padding: 48px 40px 36px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+
+}
+
+.close{
+  display: block;
+  padding: 1px;
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  font-size: 36px;
+  color: #6c6c6c;
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+.close:hover{
+  transform: rotate(90deg);
+  color: #333;
+}
+
+.input-text{
+  width: 336px;
+  height: 28px;
+  margin: 1px 1px 0;
+  padding: 13px 15px;
+  background-color: #fff;
+  font-size: 16px;
+  border-style: none;
+  border-radius: 10px;
+  border: 1px solid #a0a0a0;
+  transition: .1s linear;
+}
+
+.input-text:hover{
+  background-color: #f3f3f3;
+}
+
+.input-button{
+  font-family: 'Jost', sans-serif;
+  padding: 15px 50px;
+  border-radius: 5px;
+  background-color: #333;
+  border-style: none;
+  color: #fff;
+  transition: .1s linear;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 60px;
+  font-size: 16px;
+}
+.input-button:hover{
+  background-color: #111;
+
+}
+
+/* content */
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12px;
+}
+
+.logo{
+  margin-top: 6px;
+}
+
+.logo img{
+  width: 30px;
+}
+
+.backgroun{
+  width: 100%;
+  height: 100vh;
+  background: url("photo/bl.jpg") no-repeat;
+  background-size: cover;
+}
+
+.backgroun:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,.6);
+  position: absolute;
+  /*z-index: 15;*/
+  top: 0;
+
+}
+
+header{
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 10 ;
+  background-color: #222;
+ -webkit-box-shadow: 0px 7px 13px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 13px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 13px -4px rgba(0,0,0,0.75);
+}
+
+container{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-togle{
+  color: #ddd;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 10px;
+  transition: .1s linear;
+}
+
+nav a:hover{
+  color: #fff;
+}
+
+.nav-togle:after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  opacity: 0;
+  transition: .2s linear;
+}
+
+.nav-togle:hover:after{
+  opacity: 1;
+  transform: translate(0px, 3px);
+}
+
+.nav-togleA{
+  color: #ddd;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 10px;
+  transition: .1s linear;
+}
+
+.nav-togleA:after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  transform: translate(0px, 3px);
+}
+
+/*contact*/
+
+.contact{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 15;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contact-content{
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  position: absolute;
+  background-color: #fffffea8;
+  right: 15%;
+  margin-top: 7%;
+  border-radius: 10px;
+  z-index: 10000;
+}
+
+
+/*media -------------------------------------- */
+
+@media (max-width: 800px){
+  .form{
+    margin: 46% auto 0;
+    width: 70%;
+    height: 225px;
+    background-color: #000000e0;
+  }
+  h1{
+    margin: 20px 0;
+    color: #eee;
+  }
+
+  .login{
+    background: none;
+  }
+
+  .input-button{
+    width: 50%;
+    margin-top: 25 px;
+  }
+
+  #close{
+    font-size: 42px;
+  }
+
+  .input-text{
+    width: 80%;
+    height: 24px;
+  }
+
+  .intro{
+    background: url("./photo/phone3.jpg") center no-repeat;
+    background-size: cover;
+  }
+
+  .backgroun{
+    background: url("./photo/phone3.jpg") center no-repeat;
+    background-size: cover;
+  }
+
+  .backgroun:after{
+    display: none;
+  }
+
+  nav{
+    width: 75%;
+    /*font-size: 24px;*/
+  }
+
+  .contact-content{
+    width: 80%;
+    right: 10%;
+    margin-top: 40%;
+    height: 420px;
+    background-color: #000000e0;
+  }
+
+  .close{
+    font-size: 42px;
+  }
+
+  .contact{
+    background: none;
+  }
+
+
+}
+
+/*end --------------------------------------*/
